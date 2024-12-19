@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Instagram Application Mobile Testing And Test Suites">
+    <listeners>
+        <listener class-name="com.extentReport.ExtentReport"/>
+    </listeners>
+    <test name="Instagram Application Testcases">
+        <classes>
+            <class name="com.testPages.HomePageTest"/>
+            <class name="com.testPages.SignUpPageTest"/>
+            <class name="com.testPages.LoginPageTest"/>
+        </classes>
+    </test>
+</suite>
